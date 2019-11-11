@@ -1,0 +1,166 @@
+<HTML>
+
+<HEAD>
+
+<TITLE> Quotes </TITLE>
+
+</HEAD>
+
+<link rel="stylesheet" type="text/css" href="../css/ZStyleSheet.css">
+
+<STYLE>
+
+BR
+	{
+
+	display: block;
+	margin: 900px;
+
+	}
+
+img
+	{
+
+	padding: 15px;
+
+	}
+
+</STYLE>
+
+<BODY>
+
+
+<H3>Click the button to see each character's quote:</H3>
+
+
+
+<!--======= HAPPY MASK SALESMAN ==================== -->
+
+<div class = "img" style = "float:left">
+
+	<a target = "_blank" href = "../images/HMS.png">
+
+	<img src = "../images/HMS.png" alt = "Happy Mask Salesman">
+
+	</a>
+
+</div>
+
+<div class = "desc" style = "float:left">
+
+	<button onclick = "myFunction()"> Click Me </button>
+
+	<P id="demo"></P>
+
+</div>
+
+
+<!--======== MAJORA'S MASK ========================= -->
+
+<div class = "img" style = "float:right">
+
+	<a target = "_blank" href = "../images/majorasmask.jpg">
+
+	<img src = "../images/majorasmask.jpg" alt = "Majora's Mask" height = "250" width = "250">
+
+	</a>
+
+</div>
+
+<div class = "desc" style = "float:right">
+
+	<button onclick = "myFunctionTwo()"> Click Me </button>
+
+	<P id="demoTwo">
+</P>
+
+</div>
+
+
+
+<HR style="height:250pt; visibility:hidden;" />
+
+
+
+<!--========= MOON ================================= -->
+
+
+<div class = "img" style = "float: left">
+
+	<a target = "_blank" href = "../images/MMMoon.jpg">
+
+	<img src = "../images/MMMoon.jpg" alt = "Moon" height = "200" width = "200">
+
+	</a>
+
+</div>
+
+<div class = "desc" style = "float:left">
+
+	<button onclick = "myFunctionThree()"> Click Me </button>
+
+	<P id="demoThree"></P>
+
+</div>
+
+
+<!--========= TINGLE =============================== -->
+
+<div class = "img" style = "float:right">
+
+	<a target = "_blank" href = "../images/Tingle_.png">
+
+	<img src = "../images/Tingle_.png" alt = "Tingle" height = "300" width = "200">
+
+	</a>
+
+</div>
+
+<div class = "desc" style = "float:right">
+
+	<button onclick = "myFunctionFour()"> Click Me </button>
+
+	<P id="demoFour"></P>
+
+</div>
+
+
+<SCRIPT>
+
+function myFunction()
+
+	{
+
+	document.getElementById("demo").innerHTML = "- \"You've met with a terrible fate, haven't you?\" <BR><BR> - \"Whenever there is a meeting, a parting is <BR> sure to follow. However, that parting need <BR> not last forever...Whether a parting be forever <BR> or merely for a short time...That is up to you.\"";
+
+	}
+
+function myFunctionTwo()
+
+	{
+
+	document.getElementById("demoTwo").innerHTML = "- \"So you want to play with me? <BR> Ok, let's play good guys and bad guys...<BR> I'll be the good guy, and you be the bad guy, <BR> and when you're the bad guy, you just run.\"";
+
+	}
+
+function myFunctionThree()
+
+	{
+
+	document.getElementById("demoThree").innerHTML = "- \"I... I shall consume. Consume... <BR> consume everything...\"";
+
+	}
+
+function myFunctionFour()
+
+	{
+
+	document.getElementById("demoFour").innerHTML = "- \"Tingle Tingle! Kooloo-LimPAH! <BR> These are the magic words Tingle <BR> created himself. Don't steal them!\"";
+
+	}
+
+</SCRIPT>
+
+</BODY>
+
+</HTML>
