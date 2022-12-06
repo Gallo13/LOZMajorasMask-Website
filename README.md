@@ -1,8 +1,8 @@
-# LOZMajorasMask-Website
-
 ---
 permalink: /ZDefault.html
 ---
+
+# LOZMajorasMask-Website
 
 A website using HTML5 and CSS3 based on the world of LOZ Majora's Mask video game.
 
